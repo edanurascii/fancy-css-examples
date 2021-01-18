@@ -31,4 +31,17 @@ which:
 - (2 x 2) = 4th element
 - (2 x 3) = 6th element
 
+## Viewport units
+viewport is the part of the website, which is visible in the browser window, excluding the UI, menu bar of the browser. the value changes if the browser window is resized.
+
+- **vh: 1% of the viewport's height**
+> 100vh means 100% of the viewport height.
+- **vw: 1% of the viewport's width**
+> 100vw means 100% of the viewport width.
+- **vmin: 1% of the viewport's smaller dimension**
+> 50vmin means 50% of the minimum between vh and vw.
+- **vmax: 1% of the viewport's larger dimension**
+> 50vmax means 50% of the maximum between vh and vw.
+
+
 ![Alt text](image.png)
